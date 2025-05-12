@@ -1,0 +1,42 @@
+<script>
+
+    let zoologico = [
+
+        {
+            nome_animal: 'Jacaré',
+            cor: 'Rosa',
+            peso: '150kg',
+            altura: '40cm',
+            comprimento: '180cm',
+            nadar: function () { console.log('Nadou!') },
+            pular: function () { console.log('Pulou!') }
+        },
+
+        {
+            nome_animal: 'Cobra',
+            cor: 'Preta',
+            peso: '2kg',
+            altura: '33cm',
+            comprimento: '200cm',
+            nadar: function () { console.log('Nadou!') },
+            pular: function () { console.log('Pulou!') }
+        },
+
+        {
+            nome_animal: 'Perereca',
+            cor: 'Rosinha',
+            peso: '8kg',
+            altura: '20cm',
+            comprimento: '20cm',
+            nadar: function () { console.log('Nadou!') },
+            pular: function () { console.log('Pulou!') }
+        }
+    ];
+
+    zoologico.forEach(animal => {
+        console.log(`Nome: ${animal.nome_animal}`)
+        console.log(`Cor: ${animal.cor}`)
+        console.log(`#############################`)
+    });
+
+</script>
